@@ -1,3 +1,8 @@
+variable "project_name" {
+  type    = string
+  default = "gatsby-starter"
+}
+
 variable "fe-url" {
   type        = string
   description = "frontend url"
